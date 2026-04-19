@@ -10,9 +10,11 @@
 
 ---
 
-This project leverages **Deep Learning techniques** to classify plant diseases from leaf images. It uses a **pretrained EfficientNet-B0 model** with transfer learning to achieve **~99% classification accuracy** on the PlantVillage dataset.
+This project leverages Deep Learning techniques to classify plant diseases from leaf images. It uses a pretrained **EfficientNet-B0** architecture fine-tuned on the PlantVillage dataset to achieve high accuracy in multi-class classification.
 
-The project is implemented in **PyTorch** and includes data preprocessing, model training, evaluation, and visualization of results such as confusion matrix and classification report.
+The system includes full pipeline development, including data loading, model training, evaluation, visualization, and inference, making it suitable for real-world agricultural applications.
+
+This repository also includes training logs, evaluation metrics, and visualization outputs such as accuracy curves and a confusion matrix for better interpretability.
 
 ---
 
@@ -46,11 +48,11 @@ The project is implemented in **PyTorch** and includes data preprocessing, model
 
 ---
 
-# 📂 Dataset
+# Dataset
 
 The project uses the **PlantVillage dataset**, containing images of healthy and diseased plant leaves.
 
-## 📁 Dataset Structure
+## Dataset Structure
 
 ```
 /root_dir
@@ -101,20 +103,9 @@ pip install torch torchvision numpy pillow scikit-learn matplotlib seaborn openc
 
 ---
 
-# 📊 Results
-
-| Metric    | Value |
-| --------- | ----- |
-| Accuracy  | ~99%  |
-| Precision | ~99%  |
-| Recall    | ~99%  |
-| F1 Score  | ~99%  |
-
----
-
 # 📊 Confusion Matrix
 
-![Confusion Matrix](images/confusion_matrix.png)
+![Confusion Matrix](Results/ConfusionMatrix.png)
 
 ---
 
@@ -162,25 +153,3 @@ Dataset is clean and lab-controlled → real-world performance may vary.
 * Suitable for agricultural applications
 
 ---
-
-# 📷 Images Folder
-
-```
-/images
-   ├── confusion_matrix.png
-   ├── sample_input.png
-```
-
----
-
-# 💡 Future Improvements
-
-* Grad-CAM visualization
-* Real-world dataset
-* Web/mobile deployment
-
----
-
-# 📄 License
-
-This project is licensed under the MIT License.
