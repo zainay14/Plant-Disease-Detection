@@ -121,7 +121,29 @@ Predicts labels for unseen images using the trained EfficientNet-B0 model.
 * Takes input of new/unseen plant leaf images  
 * Processes the image through the trained model for classification  
 * Displays **Top-3 class probabilities** for better interpretability  
-* Helps in understanding model confidence across multiple classes  
+* Helps in understanding model confidence across multiple classes
+
+---
+## Training Metrics
+
+### Visualization of Training Progress
+Graphs show trends in:
+
+- 📉 Loss (Training & Validation)  
+- 📊 Accuracy (Training & Validation)  
+- 📈 Learning Rate Progression  
+
+---
+### Example Metrics Analysis
+
+#### Loss Curves
+- Steady decrease in both training and validation loss  
+- Indicates effective learning and optimization  
+
+#### Accuracy Curves
+- Achieves over **90% accuracy**  
+- Minimal overfitting observed  
+- Training and validation metrics remain closely aligned throughout  
 
 # 📊 Confusion Matrix
 
