@@ -1,4 +1,3 @@
-# Plant Disease Detection and Classification
 
 # 🌿 Plant Disease Detection using Deep Learning
 
