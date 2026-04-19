@@ -120,7 +120,7 @@ pip install torch torchvision numpy pillow scikit-learn matplotlib seaborn openc
 
 # 🧪 Prediction Example
 
-![Sample Input](images/sample_input.png)
+![Sample Input](Results/TestImage.png)
 
 **Output:**
 
