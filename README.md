@@ -120,36 +120,4 @@ Predicted Disease: Tomato Bacterial Spot
 Confidence: 99%+
 ```
 
----
-
-# ▶️ How to Run
-
-## Train Model
-
-```bash
-python main.py
-```
-
-## Evaluate
-
-* Generates classification report & confusion matrix
-
-## Predict
-
-* Provide image path → get prediction
-
----
-
-# ⚠️ Important Note
-
-Dataset is clean and lab-controlled → real-world performance may vary.
-
----
-
-# 🎯 Conclusion
-
-* High accuracy classification
-* Transfer learning improves performance
-* Suitable for agricultural applications
-
----
+-
