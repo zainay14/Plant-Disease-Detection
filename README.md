@@ -129,10 +129,10 @@ Predicts labels for unseen images using the trained EfficientNet-B0 model.
 ### Visualization of Training Progress
 Graphs show trends in:
 
-- 📉 Loss (Training & Validation)  
-- 📊 Accuracy (Training & Validation)  
-- 📈 Learning Rate Progression  
-
+- Loss (Training & Validation)  
+- Accuracy (Training & Validation)  
+- Learning Rate Progression
+![Training](Results/Training.png)
 ---
 ### Example Metrics Analysis
 
@@ -155,11 +155,11 @@ Graphs show trends in:
 
 ![Sample Input](Results/TestImage.png)
 
-**Output:**
+---
 
-```
-Predicted Disease: Tomato Bacterial Spot
-Confidence: 99%+
-```
+## Summary
 
--
+- **Dataset:** PlantVillage Dataset  
+- **Model:** Custom CNN with Early Stopping and Grad-CAM for visualization  
+- **Performance:** Achieved high prediction accuracy and strong generalization on unseen data  
+- **Usage:** Suitable for diagnosing plant diseases and assisting farmers with actionable insights  
